@@ -21,7 +21,7 @@ Steps
 =====
 
 
-Hellow World
+Hello World
 ============
 
 index.js
@@ -36,5 +36,5 @@ console.log("Hello World");
 
 Output:
 ````
-Hellow World
+Hello World
 ````
