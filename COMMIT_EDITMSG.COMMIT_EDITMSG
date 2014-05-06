@@ -1,0 +1,22 @@
+Initial version
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/README.md b/README.md
+index ddaad98..29afe37 100644
+--- a/README.md
++++ b/README.md
+@@ -1,2 +1,8 @@
+-chat-app
+-========
++Windows
++=======
++
++- Install Node from http://nodejs.org/
++- Download msi, and run
++
++MacOS
++=====
+\ No newline at end of file
