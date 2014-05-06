@@ -76,8 +76,8 @@ Step 3
 ======
 
 Passing variables
+-----------------
 
-````
 ````
 
 Browse to http://localhost:8000/?name=Bob
@@ -86,4 +86,16 @@ Browse to http://localhost:8000/?name=Bob
  Web    Address  Port Parameters
 <-----><-------> <--> <------->
 http://localhost:8000/?name=Bob
+````
+
+Multiple variables
+-------------------
+
+````
+ Web    Address  Port Parameters
+<-----><-------> <--> <-----------------------------> 
+http://localhost:8000/?name=Bob&country=New%20Zealand
+
+name    = Bob
+country = New Zealand
 ````

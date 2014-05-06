@@ -9,7 +9,7 @@ var server = http.createServer(function (request, response) {
 	var query = url_parts.query;
 
 	response.writeHead(200, {"Content-Type": "text/plain"});
-	response.end("Hello " + query.name + ".\n");
+	response.end("Hello " + query.name + ", from " + query.country + ".\n");
 });
 
 // Listen on port 8000, IP defaults to 127.0.0.1
