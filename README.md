@@ -46,7 +46,7 @@ Hello World
 Step 2
 =======
 
-Hellow World to wep page
+Hellow World to web page
 
 ````
 	// Load the http module to create an http server.
@@ -66,3 +66,24 @@ Hellow World to wep page
 ````
 
 Browse to localhost:8000
+
+````
+ Web    Address  Port 
+<-----><-------> <---> 
+http://localhost:8000/
+````
+Step 3
+======
+
+Passing variables
+
+````
+````
+
+Browse to http://localhost:8000/?name=Bob
+
+````
+ Web    Address  Port Parameters
+<-----><-------> <--> <------->
+http://localhost:8000/?name=Bob
+````
