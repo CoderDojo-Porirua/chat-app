@@ -46,7 +46,7 @@ Hello World
 Step 2
 =======
 
-Hellow World to web page
+Hello World to web page
 
 ````
 	// Load the http module to create an http server.
