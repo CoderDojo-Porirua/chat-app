@@ -78,8 +78,6 @@ Step 3
 Passing variables
 -----------------
 
-````
-
 Browse to http://localhost:8000/?name=Bob
 
 ````
