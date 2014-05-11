@@ -8,13 +8,12 @@ var messages = [];
 // Configure our HTTP server to act as a simple mailbox
 var server = http.createServer(function (request, response) {
 
-	var url_parts = url.parse(request.url, true);
-	var query = url_parts.query;
+  var url_parts = url.parse(request.url, true);
+  var query = url_parts.query;
 
   var action = query.action;
 
-
-  // Example usage: http://localhost:8000/?action=post&from=Kermit&to=Fozzie&message=It%27s%20not%20easy%20being%20green
+  // Example usage: http://<hostname>:8000/?action=post&from=Kermit&to=Fozzie&message=It%27s%20not%20easy%20being%20green
   if( action == 'post') {
 
     // Create a message from the request and store it in the 'postbox'
