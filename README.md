@@ -18,8 +18,8 @@ Linux
 =====
 Type
 sudo apt-get install node nodejs npm
-And run 
-nodejs
+And run nodejs
+
 =====
 
 
