@@ -18,7 +18,12 @@ Linux
 =====
 - Install NodeJS
 ````
-$ sudo apt-get install node nodejs npm
+$ sudo apt-get update
+$ sudo apt-get install nodejs npm
+$ nodejs --version
+v0.10.25
+$ npm --version
+1.4.21
 ````
 
 - Start NodeJS
