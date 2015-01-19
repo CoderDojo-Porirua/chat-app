@@ -16,8 +16,16 @@ MacOS
 
 Linux
 =====
-Type
-sudo apt-get install node nodejs npm
+- Install NodeJS
+````
+$ sudo apt-get install node nodejs npm
+````
+
+- Start NodeJS
+````
+$ nodejs
+>
+````
 And run nodejs
 
 =====
